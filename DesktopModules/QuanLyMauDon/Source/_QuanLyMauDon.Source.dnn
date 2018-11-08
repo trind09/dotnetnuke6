@@ -1,0 +1,56 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages><package name="QuanLyMauDon.Source" type="Module" version="1.0.0">
+  <friendlyName>Quan Ly Mau Don</friendlyName>
+  <description>I am thinking about an online support utility.
+The requirements are described as what is shown in the attached files. 
+The support can be either of the following:
+- Students fill in the form online, then print it out, then submit the printed hard copy to the office.
+- Or: Student fill in the form online, then directly submit online to the office. This requires us to administer our students' requests. </description>
+  <iconFile />
+  <owner>
+    <name />
+    <organization />
+    <url />
+    <email />
+  </owner>
+  <license>The license for this package is not currently included within the installation file, please check with the vendor for full license details.</license>
+  <releaseNotes />
+  <components>
+    <component type="Module">
+      <desktopModule>
+        <moduleName>QuanLyMauDon.Source</moduleName>
+        <foldername>QuanLyMauDon/Source</foldername>
+        <businessControllerClass />
+        <supportedFeatures />
+        <moduleDefinitions>
+          <moduleDefinition>
+            <friendlyName>Quan Ly Mau Don</friendlyName>
+            <defaultCacheTime>0</defaultCacheTime>
+            <moduleControls>
+              <moduleControl>
+                <controlKey />
+                <controlSrc>DesktopModules/QuanLyMauDon/Source/View.ascx</controlSrc>
+                <supportsPartialRendering>False</supportsPartialRendering>
+                <controlTitle />
+                <controlType>View</controlType>
+                <iconFile />
+                <helpUrl />
+                <supportsPopUps>False</supportsPopUps>
+                <viewOrder>0</viewOrder>
+              </moduleControl>
+            </moduleControls>
+          </moduleDefinition>
+        </moduleDefinitions>
+      </desktopModule>
+    </component>
+    <component type="File">
+      <files>
+        <basePath>DesktopModules\QuanLyMauDon\Source</basePath>
+        <file>
+          <name>View.ascx</name>
+        </file>
+      </files>
+    </component>
+  </components>
+</package></packages>
+</dotnetnuke>

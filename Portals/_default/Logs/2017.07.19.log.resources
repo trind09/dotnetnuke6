@@ -1,0 +1,5 @@
+2017-07-19 21:51:35,462 [WINDOWS-NMMR9PE][Thread:19][ERROR] DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler+CoreScheduler - ReaderWriterLockStrategy.GetWriteLock timed out
+System.ApplicationException: ReaderWriterLockStrategy.GetWriteLock timed out
+   at DotNetNuke.Collections.Internal.ReaderWriterLockStrategy.GetWriteLock(TimeSpan timeout)
+   at DotNetNuke.Collections.Internal.SharedList`1.GetWriteLock(TimeSpan timeOut)
+   at DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler.CoreScheduler.RemoveFromScheduleQueue(ScheduleItem scheduleItem)

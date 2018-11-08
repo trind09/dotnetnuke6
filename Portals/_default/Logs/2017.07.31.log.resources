@@ -1,0 +1,64 @@
+2017-07-31 20:38:10,130 [WINDOWS-NMMR9PE][Thread:6][ERROR] DotNetNuke.Common.Utilities.DataCache - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.GetMembershipUserCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromRuntimeCache(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2017-07-31 20:38:59,501 [WINDOWS-NMMR9PE][Thread:7][ERROR] DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler+CoreScheduler - ReaderWriterLockStrategy.GetWriteLock timed out
+System.ApplicationException: ReaderWriterLockStrategy.GetWriteLock timed out
+   at DotNetNuke.Collections.Internal.ReaderWriterLockStrategy.GetWriteLock(TimeSpan timeout)
+   at DotNetNuke.Collections.Internal.SharedList`1.GetWriteLock(TimeSpan timeOut)
+   at DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler.CoreScheduler.RemoveFromScheduleQueue(ScheduleItem scheduleItem)
+2017-07-31 20:38:59,505 [WINDOWS-NMMR9PE][Thread:12][ERROR] DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler+CoreScheduler - ReaderWriterLockStrategy.GetWriteLock timed out
+System.ApplicationException: ReaderWriterLockStrategy.GetWriteLock timed out
+   at DotNetNuke.Collections.Internal.ReaderWriterLockStrategy.GetWriteLock(TimeSpan timeout)
+   at DotNetNuke.Collections.Internal.SharedList`1.GetWriteLock(TimeSpan timeOut)
+   at DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler.CoreScheduler.RemoveFromScheduleQueue(ScheduleItem scheduleItem)
+2017-07-31 20:38:59,506 [WINDOWS-NMMR9PE][Thread:13][ERROR] DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler+CoreScheduler - ReaderWriterLockStrategy.GetWriteLock timed out
+System.ApplicationException: ReaderWriterLockStrategy.GetWriteLock timed out
+   at DotNetNuke.Collections.Internal.ReaderWriterLockStrategy.GetWriteLock(TimeSpan timeout)
+   at DotNetNuke.Collections.Internal.SharedList`1.GetWriteLock(TimeSpan timeOut)
+   at DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler.CoreScheduler.RemoveFromScheduleQueue(ScheduleItem scheduleItem)
+2017-07-31 20:38:59,511 [WINDOWS-NMMR9PE][Thread:6][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.GetPassword(UserInfo user, String passwordAnswer)
+   at DotNetNuke.Entities.Users.UserController.GetPassword(UserInfo& user, String passwordAnswer)
+   at Default2.GetCurrentUserPassword() in c:\Users\Admin\Desktop\DotNetNuke\DotNetNuke6\Default2.aspx.cs:line 50
+   at Default2.Page_Load(Object sender, EventArgs e) in c:\Users\Admin\Desktop\DotNetNuke\DotNetNuke6\Default2.aspx.cs:line 14
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default2_aspx.ProcessRequest(HttpContext context) in c:\Users\Admin\AppData\Local\Temp\Temporary ASP.NET Files\root\fc5cc5b9\78d12f84\App_Web_ebx0i02v.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-07-31 20:38:59,510 [WINDOWS-NMMR9PE][Thread:14][ERROR] DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler+CoreScheduler - ReaderWriterLockStrategy.GetWriteLock timed out
+System.ApplicationException: ReaderWriterLockStrategy.GetWriteLock timed out
+   at DotNetNuke.Collections.Internal.ReaderWriterLockStrategy.GetWriteLock(TimeSpan timeout)
+   at DotNetNuke.Collections.Internal.SharedList`1.GetWriteLock(TimeSpan timeOut)
+   at DotNetNuke.Services.Scheduling.DNNScheduling.Scheduler.CoreScheduler.RemoveFromScheduleQueue(ScheduleItem scheduleItem)
+2017-07-31 20:39:07,868 [WINDOWS-NMMR9PE][Thread:18][ERROR] DotNetNuke.Common.Utilities.DataCache - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.GetMembershipUserCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromRuntimeCache(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2017-07-31 20:39:09,034 [WINDOWS-NMMR9PE][Thread:6][ERROR] DotNetNuke.Common.Utilities.DataCache - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.GetMembershipUserCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromRuntimeCache(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2017-07-31 20:39:49,420 [WINDOWS-NMMR9PE][Thread:8][ERROR] DotNetNuke.Common.Utilities.DataCache - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.GetMembershipUserCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromRuntimeCache(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2017-07-31 20:40:38,717 [WINDOWS-NMMR9PE][Thread:17][ERROR] DotNetNuke.Common.Utilities.DataCache - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.GetMembershipUserCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromRuntimeCache(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
+2017-07-31 22:30:38,519 [WINDOWS-NMMR9PE][Thread:18][ERROR] DotNetNuke.Common.Utilities.DataCache - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.GetMembershipUserCallBack(CacheItemArgs cacheItemArgs)
+   at DotNetNuke.Common.Utilities.DataCache.GetCachedDataFromRuntimeCache(CacheItemArgs cacheItemArgs, CacheItemExpiredCallback cacheItemExpired)
